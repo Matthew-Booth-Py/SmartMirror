@@ -7,8 +7,8 @@ class Detect:
     def __init__(self):
         self.execution_path = os.getcwd()
         self.detector = ObjectDetection()
-        self.detector.setModelTypeAsYOLOv3()
-        self.detector.setModelPath(os.path.join(self.execution_path , "models/yolov3.pt"))
+        self.detector.setModelTypeAsTinyYOLOv3()
+        self.detector.setModelPath(os.path.join(self.execution_path , "./models/tiny-yolov3.pt"))
         self.detector.loadModel()
         self.camera = self.create_image()
 

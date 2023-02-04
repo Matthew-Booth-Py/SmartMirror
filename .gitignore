@@ -1,2 +1,7 @@
 *.pt
 *.pyc
+*.jpg
+*.jpeg
+*.txt
+*.json
+*.h5
